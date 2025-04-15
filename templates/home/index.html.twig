@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+  {% block stylesheets %}
+      <style>
+          body {
+              background-color: #f9fafb;
+              font-family: 'Segoe UI', sans-serif;
+              color: #333;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 100vh;
+              margin: 0;
+          }
+          .message-box {
+              text-align: center;
+              padding: 40px;
+              background: #fff;
+              border-radius: 12px;
+              box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+          }
+          h1 {
+              font-size: 2em;
+              color: #2c3e50;
+          }
+          p {
+              font-size: 1.1em;
+              margin-top: 10px;
+          }
+          code {
+              background: #f0f0f0;
+              padding: 4px 8px;
+              border-radius: 4px;
+              font-family: monospace;
+          }
+      </style>
+  {% endblock %}
+{% block body %}
+    <div class="message-box">
+        <h1>👋 Добро пожаловать в проект <code>usApi</code>!</h1>
+        <p>Пожалуйста, откройте файл <code>README.md</code>, чтобы узнать больше о проекте, установке и API.</p>
+        <p>Удачи в разработке! 🚀</p>
+    </div>
+{% endblock %}
