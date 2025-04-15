@@ -10,7 +10,7 @@ Auth Type: API Key
 Key: X-AUTH-TOKEN
 Value: Выданный API токен
 
-	API
+API
 Request
 Method: POST
 URL : /api/
